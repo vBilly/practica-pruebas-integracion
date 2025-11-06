@@ -1,0 +1,39 @@
+#  Archivos de entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+#  Archivos de configuración locales
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+#  Carpetas de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+#  Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#  Dependencias
+*.egg-info/
+dist/
+build/
+
+#  Archivos del sistema
+.DS_Store
+Thumbs.db
+
+#  Otros que no quieres subir
+.env
