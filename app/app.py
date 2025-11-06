@@ -6,7 +6,7 @@ app = Flask(__name__, template_folder=os.path.abspath(os.path.join(os.path.dirna
 
 # Lista de productos simulados
 productos = [
-    {"id": 4, "nombre": "Camiseta", "precio": 20, "imagen": "camiseta.jpg"},
+    {"id": 1, "nombre": "Camiseta", "precio": 20, "imagen": "camiseta.jpg"},
     {"id": 2, "nombre": "Pantalón", "precio": 35, "imagen": "pantalon.jpg"},
     {"id": 3, "nombre": "Zapatos", "precio": 50, "imagen": "zapatos.jpg"}
 ]
